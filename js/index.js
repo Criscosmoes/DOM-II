@@ -70,3 +70,9 @@ document.addEventListener('keyup', (e) => {
         body.style.background = 'gray'; 
     }
 })
+
+
+
+document.querySelector('a').addEventListener('click', (e) => {
+    e.preventDefault(); 
+})
